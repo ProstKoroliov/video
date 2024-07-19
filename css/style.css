@@ -1,0 +1,61 @@
+
+#media {
+    width: 720px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav {
+    width: 720px;
+    height: 40px;
+    margin: 5px auto;
+    background: rgb(112, 189, 192);
+    opacity: .8;
+    transition: .3;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+#buttoms {
+    width: 135px;
+    height: 20px;
+    /* border: 1px solid blue; */
+}
+
+#play, #mute {
+    font-weight: bold;
+    width: 65px;
+    border-color: #fff;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(74, 133, 135);
+    color: #fff;
+
+}
+
+#bar {
+    width: 400px;
+    height: 7px;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+
+#progress {
+    width: 150px;
+    height: 7px;
+    background: #fff;
+    border-radius: 5px;
+}

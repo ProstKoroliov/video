@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проба исп-я API</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <video id="media">
+        <source src="media/solarstone.mp4">
+    </video>
+
+    <nav>
+        <div id="buttons">
+            <button id="play">Воспр.</button>
+            <button id="mute">Звук</button>
+        </div>
+
+        <div id="bar">
+            <div id="progress"></div>
+        </div>
+
+        <div id="control">
+            <input type="range" id="volume" min="0" max="1" step=".1" value=".6">
+        </div>
+
+    </nav>
+
+    <script src="js/play js.js"></script>
+
+</body>
+</html>
+
+<!-- https://www.w3.org/2010/05/video/mediaevents.html -->
